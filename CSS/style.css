@@ -1,0 +1,79 @@
+*{
+   margin: 0; 
+   padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section img {
+    height: 100%;
+}
+
+.background-section-one {
+    background-image: url(../assets/img/black-friday-bg.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-section-two {
+    background-image: url(../assets/img/BLACK-FRIDAY.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-container {
+    background: #fff;
+    border-radius: 25px;
+    padding: 25px;
+    max-width: 450px;   
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 12px;
+    background: black;
+    color: #fff;
+}
+
+form input[type="submit"] {
+    background: linear-gradient(to left, rgb(146, 146, 146),#000);
+    cursor: pointer;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 300;
+    transition: all 0.5s ease;
+}
+
+form input[type="submit"]:hover {
+    letter-spacing: 0.8px;
+    background: linear-gradient(to right, rgb(248, 143, 45),rgb(118, 19, 148));
+    transition: all 0.3s ease;
+}
+
+form {
+    display: grid;
+}
+
+footer {
+    height: 150px;
+    padding: 25px;
+    text-align: center;
+    background-color: rgb(250, 157, 70);
+    color: #fff;
+}
+
